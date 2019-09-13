@@ -2,6 +2,10 @@ import datetime
 from banner import banner
 
 banner("BIRTHDAY", "Allison")
+from banner import banner
+
+banner("Birthday", "Allison.T")
+
 
 # 1. Find out when you were born
 # 2. Figure out how many days until your birthday
