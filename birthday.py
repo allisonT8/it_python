@@ -4,7 +4,7 @@ from banner import banner
 banner("BIRTHDAY", "Allison")
 from banner import banner
 
-banner("Birthday", "Allison.T")
+banner("Birthday", "Allison .T")
 
 
 # 1. Find out when you were born
