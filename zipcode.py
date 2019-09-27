@@ -1,30 +1,31 @@
 from banner import banner
-banner("Zip Code Sorter","Allison.T")
+banner("ZIP CODE SORTER", "Mr. Baldus")
 
-print("Welcome to the Newaygo County zipcode sorter OwO .")
+print("Welcome to the Newaygo County zip code sorter.")
 
-while true:
-    zip_code = int(input("Please enter a zipcode: "))
+go_again = True
+while go_again:
+    zip_code = int(input("Please enter a zip code: "))
     if zip_code == 49309:
-        print(f"The zipcode {zip_code} is for Bitely.")
+        print(f"The zip code {zip_code} is for Bitely.")
     elif zip_code == 49312:
-        print(f"The zipcode {zip_code} is for Brohman.")
+        print(f"The zip code {zip_code} is for Brohman.")
     elif zip_code == 49337:
-        print(f"The zipcode {zip_code} is for both Newaygo and Croton.")
-    elif zipcode == 49412:
-        print(f"The zipcode {zip_code} is for Fremont")
-    elif zipcode == 49412:
-        print(f"The zipcode {zip_code} is for Fremont")
-    elif zipcode == 49327:
-        print(f"The zipcode {zip_code} is for Grant")
-    elif zipcode == 49349:
-        print(f"The zipcode {zip_code} is for White Cloud")
+        print(f"The zip code {zip_code} is for Croton and Newaygo.")
+    elif zip_code == 49412:
+        print(f"The zip code {zip_code} is for Fremont.")
+    elif zip_code == 49413:
+        print(f"The zip code {zip_code} is for Fremont.")
+    elif zip_code == 49327:
+        print(f"The zip code {zip_code} is for Grant.")
+    elif zip_code == 49349:
+        print(f"The zip code {zip_code} is for White Cloud.")
     else:
-        print(f"The zipcode {zip_code} is not the in Newaygo County")
+        print(f"The zip code {zip_code} is not in Newaygo County.")
 
-    if input("Would you like to enter another zipcode (Y/N)") == "Y":
-        continue
-    else:
-        break
+    go_again = False
+    if input("Would you like to enter another zip code (Y/N)? ") == "Y":
+        print("")
+        go_again = True
 
-print("Thanks for using me! UwU")
+print("Thank you for using the Newaygo County Zip Code Sorter. Goodbye!")
